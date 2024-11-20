@@ -1,0 +1,5 @@
+userInput = input("Введіть ім'я вашої тваринки: ")
+userInput = str(userInput)
+print("Ім'я вашої тваринки:", userInput)
+data_type = type(userInput)
+print("Тип вашої тваринки:", data_type)
