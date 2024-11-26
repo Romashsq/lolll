@@ -7,9 +7,8 @@ def draw_smiley():
     t = turtle.Turtle()
     t.speed(5)
 
-    # Рисуем лицо (круг) чуть ниже
     t.penup()
-    t.goto(0, -150)  # Смещаем лицо вниз
+    t.goto(0, -150)
     t.pendown()
     t.begin_fill()
     t.color("yellow")
@@ -18,7 +17,7 @@ def draw_smiley():
 
     # Левый глаз
     t.penup()
-    t.goto(-35, -50)  # Смещаем глаза вместе с лицом
+    t.goto(-35, -50)
     t.pendown()
     t.begin_fill()
     t.color("black")
@@ -27,7 +26,7 @@ def draw_smiley():
 
     # Правый глаз
     t.penup()
-    t.goto(35, -50)  # Смещаем глаза вместе с лицом
+    t.goto(35, -50)
     t.pendown()
     t.begin_fill()
     t.color("black")
@@ -36,7 +35,7 @@ def draw_smiley():
 
     # Рот
     t.penup()
-    t.goto(-50, -80)  # Смещаем рот
+    t.goto(-50, -80)
     t.setheading(-60)
     t.pendown()
     t.width(5)
@@ -44,7 +43,7 @@ def draw_smiley():
 
     # Рисуем щёки
     t.penup()
-    t.goto(-65, -70)  # Смещаем щёки
+    t.goto(-65, -70)
     t.pendown()
     t.begin_fill()
     t.color("pink")
@@ -52,7 +51,7 @@ def draw_smiley():
     t.end_fill()
 
     t.penup()
-    t.goto(65, -70)  # Смещаем щёки
+    t.goto(65, -70)
     t.pendown()
     t.begin_fill()
     t.color("pink")
